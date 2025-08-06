@@ -1,0 +1,22 @@
+2025-06-16 20:43:10,838 - INFO - CLI Command: first_ai_xss.py -d doctena.com --crawl --depth 1 -w 4
+2025-06-16 20:43:10,838 - WARNING - Gemini API key not provided via --ai-key argument or GEMINI_API_KEY env var. AI payload generation will be skipped.
+2025-06-16 20:43:10,838 - INFO - 
+==================== STARTING ADVANCED SCAN ====================
+2025-06-16 20:43:10,839 - INFO - Target: 
+2025-06-16 20:43:10,839 - CRITICAL - [33mBlind XSS payloads will use callback domain: lxe4hmgwh1wk.oast.pro[0m
+2025-06-16 20:43:10,839 - CRITICAL - [32mMonitor http://lxe4hmgwh1wk.oast.pro for interactions.[0m
+2025-06-16 20:43:13,533 - INFO - WebDriver 1 initialized successfully.[0m
+2025-06-16 20:43:13,895 - INFO - WebDriver 2 initialized successfully.[0m
+2025-06-16 20:43:14,249 - INFO - WebDriver 3 initialized successfully.[0m
+2025-06-16 20:43:14,687 - INFO - WebDriver 4 initialized successfully.[0m
+2025-06-16 20:43:14,687 - INFO - 4 drivers ready in the pool.[0m
+2025-06-16 20:43:14,687 - INFO - [1;32m[INFO][0m Crawling website: doctena.com
+2025-06-16 20:43:14,687 - INFO - Crawling [Depth:0]: http://doctena.com
+2025-06-16 20:43:15,001 - INFO - Crawling [Depth:1]: http://doctena.com#content
+2025-06-16 20:43:15,117 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/
+2025-06-16 20:43:15,213 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/features/
+2025-06-16 20:43:15,290 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/blog/
+2025-06-16 20:43:15,376 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/our-history/
+2025-06-16 20:43:16,003 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/partners/
+2025-06-16 20:43:17,420 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/contact/
+2025-06-16 20:43:17,491 - INFO - Crawling [Depth:1]: https://www.doctena.com/en-nl/pricing/

